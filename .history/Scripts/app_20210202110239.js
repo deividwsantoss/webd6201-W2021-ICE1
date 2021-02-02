@@ -22,7 +22,7 @@
         //let paragraphOneQuerys = document.querySelectorAll("p")[0];
 
         paragraphOneElement.textContent = paragraphOneText;
-        paragraphOneElement.className = "fs-5";
+        paragraphOneElement.className = "fs-5 ";
 
         //Step 1. document.createElement
         let newParagraph = document.createElement("p");
@@ -33,12 +33,7 @@
         let mainContent = document.getElementsByTagName("main")[0];
         //step 4. Add / Insert the element 
         mainContent.appendChild(newParagraph);
-        
-        newParagraph.className = "fs-5";
 
-        //Another way to insert 
-        let paragraphThree = `<p class="fs-7 fw-bold">And this is the Third Paragraph</p>`
-        mainContent.innerHTML = paragraphThree;
 
 
 

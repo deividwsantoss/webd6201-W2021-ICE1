@@ -34,11 +34,7 @@
         //step 4. Add / Insert the element 
         mainContent.appendChild(newParagraph);
         
-        newParagraph.className = "fs-5";
-
-        //Another way to insert 
-        let paragraphThree = `<p class="fs-7 fw-bold">And this is the Third Paragraph</p>`
-        mainContent.innerHTML = paragraphThree;
+        newParagraph.className = "fs-6";
 
 
 

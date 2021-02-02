@@ -38,7 +38,7 @@
 
         //Another way to insert 
         let paragraphThree = `<p class="fs-7 fw-bold">And this is the Third Paragraph</p>`
-        mainContent.innerHTML = paragraphThree;
+        mainContent.textContent = paragraphThree;
 
 
 
