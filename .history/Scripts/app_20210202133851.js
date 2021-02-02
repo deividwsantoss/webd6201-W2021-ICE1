@@ -94,10 +94,6 @@
         let sendButton = document.getElementById("sendButton");
         sendButton.addEventListener("click", function(event){
             event.preventDefault();
-
-            console.log(fullName.value);
-            console.log(contactNumber.value);
-            console.log(emailAddress.value);
         });
 
 
