@@ -47,19 +47,10 @@
         // Deletions
 
         //removing simple element
-        // paragraphOneElement.remove();
+        //paragraphOneElement.remove();
 
         //example of remove child
-        // mainContent.removeChild(paragraphOneElement);
-
-        // UPDATE - MODIFICATION
-
-        //mainContent.firstElementChild.textContent = "Welcome Home";
-
-        mainContent.innerHTML = 
-        `<h1 id="firstHeading">Welcome to WEBD6201 </h1>
-        <p id="paragraphOne" class="fs-3">This is my first paragraph</p>
-        `
+        mainContent.removeChild(paragraphOneElement);
 
 
     }

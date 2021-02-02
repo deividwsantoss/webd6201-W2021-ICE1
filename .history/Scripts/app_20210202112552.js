@@ -40,27 +40,9 @@
         //  Another way to insert 
         let paragraphDiv = document.createElement('div');
           let paragraphThree = `<p class="fs-7 fw-bold">And this is the Third Paragraph</p>`
-        paragraphDiv.innerHTML = paragraphThree;
+        mainContent.innerHTML = paragraphThree;
 
         newParagraph.before(paragraphDiv);
-
-        // Deletions
-
-        //removing simple element
-        // paragraphOneElement.remove();
-
-        //example of remove child
-        // mainContent.removeChild(paragraphOneElement);
-
-        // UPDATE - MODIFICATION
-
-        //mainContent.firstElementChild.textContent = "Welcome Home";
-
-        mainContent.innerHTML = 
-        `<h1 id="firstHeading">Welcome to WEBD6201 </h1>
-        <p id="paragraphOne" class="fs-3">This is my first paragraph</p>
-        `
-
 
     }
     window.addEventListener("load", Start);

@@ -54,12 +54,7 @@
 
         // UPDATE - MODIFICATION
 
-        //mainContent.firstElementChild.textContent = "Welcome Home";
-
-        mainContent.innerHTML = 
-        `<h1 id="firstHeading">Welcome to WEBD6201 </h1>
-        <p id="paragraphOne" class="fs-3">This is my first paragraph</p>
-        `
+        mainContent.firstChild.textContent = "Welcome Home";
 
 
     }
