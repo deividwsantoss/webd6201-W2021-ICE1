@@ -83,11 +83,9 @@
                 fullName.focus;
                 fullName.select();
                 messageArea.hidden = false;
-                messageArea.className = "alert alert-danger";
                 messageArea.textContent = "Please Enter an appropriate name ";
             }
             else{
-                messageArea.removeAttribute("Class");
                 messageArea.hidden = true;
             }
 
@@ -95,11 +93,11 @@
 
         let sendButton = document.getElementById("sendButton");
         sendButton.addEventListener("click", function(event){
-            event.preventDefault();
+           // event.preventDefault();
 
-           // console.log(fullName.value);
-           // console.log(contactNumber.value);
-           // console.log(emailAddress.value);
+            console.log(fullName.value);
+            console.log(contactNumber.value);
+            console.log(emailAddress.value);
         });
 
 

@@ -83,11 +83,10 @@
                 fullName.focus;
                 fullName.select();
                 messageArea.hidden = false;
-                messageArea.className = "alert alert-danger";
                 messageArea.textContent = "Please Enter an appropriate name ";
             }
             else{
-                messageArea.removeAttribute("Class");
+               // messageArea.removeAttribute("Class");
                 messageArea.hidden = true;
             }
 
